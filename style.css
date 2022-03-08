@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+  background-color: #05445e;
+}
+
+.img {
+  position: absolute;
+  transform: translate(300px, -180px);
+  z-index: 1;
+}
+img {
+  transform: rotate(-90deg) scale(0.4);
+}
+.date {
+  width: 40%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  z-index: 2;
+}
+.date:focus {
+  outline: none;
+  border: none;
+}
+.date::-webkit-calendar-picker-indicator:hover {
+  cursor: pointer;
+  color: #d4f1f4;
+}
+.dateInfo {
+  margin: 70px;
+  font-weight: 600;
+  font-size: 54px;
+  text-align: center;
+  color: #d4f1f4;
+  font-family: "Work Sans", sans-serif;
+}
+.text {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+  color: #d4f1f4;
+  font-family: "Work Sans", sans-serif;
+}
